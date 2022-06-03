@@ -3,11 +3,12 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="layout">
       <Header />
-      <div>
+
+      <main>
         Content
-      </div>
+      </main>
 
       <Footer />
 

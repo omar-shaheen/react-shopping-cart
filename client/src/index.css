@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  height: 100vh;
+}
+
+.layout {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  height: 100%;
+  grid-template-rows: 50px 1fr 50px;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
