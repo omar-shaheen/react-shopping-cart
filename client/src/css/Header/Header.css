@@ -1,0 +1,10 @@
+header {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: 20px;
+  text-align: center;
+  background-color: dodgerblue;
+  color: #fff;
+}
