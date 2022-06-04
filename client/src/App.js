@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
-// import { words } from './words';
+import { words } from './words';
 import data from './data.json';
 
 import Products from './components/Products/Products';
@@ -13,7 +13,7 @@ function App() {
   // console.log(data);
 
   const [products, setProducts] = useState(data);
-  console.log(products);
+  // console.log(products);
 
   return (
     <div className="layout">

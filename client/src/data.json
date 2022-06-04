@@ -2,7 +2,7 @@
   {
     "id": "id1",
     "title": "computer 1",
-    "imgUrl": "../public/imgs/1.png",
+    "imgUrl": "/imgs/1.png",
     "desc": "This is description 1",
     "price": 30,
     "size": ["s", "M"]
@@ -10,7 +10,7 @@
   {
     "id": "id2",
     "title": "computer 2",
-    "imgUrl": "../public/imgs/2.png",
+    "imgUrl": "/imgs/2.png",
     "desc": "This is description 2",
     "price": 25,
     "size": ["s"]
@@ -18,7 +18,7 @@
   {
     "id": "id3",
     "title": "computer 3",
-    "imgUrl": "../public/imgs/3.png",
+    "imgUrl": "/imgs/3.png",
     "desc": "This is description 3",
     "price": 20,
     "size": ["M"]
@@ -26,7 +26,7 @@
   {
     "id": "id4",
     "title": "computer 4",
-    "imgUrl": "../public/imgs/4.png",
+    "imgUrl": "/imgs/4.png",
     "desc": "This is description 4",
     "price": 60,
     "size": ["XL", "L"]
@@ -34,7 +34,7 @@
   {
     "id": "id5",
     "title": "computer 5",
-    "imgUrl": "../public/imgs/5.png",
+    "imgUrl": "/imgs/5.png",
     "desc": "This is description 5",
     "price": 70,
     "size": ["L", "M"]
@@ -42,7 +42,7 @@
   {
     "id": "id6",
     "title": "computer 6",
-    "imgUrl": "../public/imgs/6.png",
+    "imgUrl": "/imgs/6.png",
     "desc": "This is description 6",
     "price": 45,
     "size": ["s", "XL"]
