@@ -26,7 +26,7 @@ function Products(props) {
             <h4> {product.title} </h4>
             <p> LE {product.price} </p>
           </div>
-          <button> Add To Cart </button>
+          <button onClick={() => props.addToCart(product)}> Add To Cart </button>
         </div>
       ))}
 
