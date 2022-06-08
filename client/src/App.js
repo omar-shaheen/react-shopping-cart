@@ -19,7 +19,9 @@ function App() {
   const [sort, setSort] = useState("");
   const [size, setSize] = useState("");
 
-  const [cartItems, setCartItems] = useState(JSON.parse(localStorage.getItem("cartItems")) || []);
+  const [cartItems, setCartItems] = useState(
+    JSON.parse(localStorage.getItem("cartItems")) || []
+  );
 
   const handleFilterBySize = (e) => {
     // console.log(e.target.value);
