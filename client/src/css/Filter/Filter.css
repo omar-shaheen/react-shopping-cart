@@ -1,5 +1,6 @@
 .filter-wrapper {
-  background-color: #fff;
+  background-color: #2c3a47;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
 }
 .filter-wrapper .filter-title {
   background-color: #d35400;
@@ -7,7 +8,7 @@
   padding: 0.4rem;
 }
 .filter-wrapper .num-of-products {
-  color: #212529;
+  color: #fff;
   text-align: center;
   padding: 8px 5px;
   font-weight: 600;
@@ -18,7 +19,7 @@
 .filter-wrapper .filter-by-size span {
   margin-bottom: 0.5rem;
   display: block;
-  color: #212529;
+  color: #fff;
 }
 .filter-wrapper .filter-by-size .filter-select {
   display: block;
