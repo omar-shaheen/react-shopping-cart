@@ -98,8 +98,8 @@ function App() {
             handleFilterByOrder={handleFilterByOrder}
             handleFilterBySize={handleFilterBySize}
           />
-        </div>
         <Cart cartItems={cartItems} removeFromCart={removeFromCart} />
+        </div>
       </main>
 
       <Footer />

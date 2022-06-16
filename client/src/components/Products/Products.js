@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../../css/Products/Products.css";
 
+import Bounce from 'react-reveal/Bounce';
+
 import ProductModal from "./ProductModal";
 
 function Products(props) {
@@ -16,10 +18,11 @@ function Products(props) {
   };
 
   return (
-    <div className="products-wrapper">
+    <Bounce left cascade>
+      <div className="products-wrapper">
       {props.products.map((product) => (
         <div key={product.id} className="product-item">
-          <a href="#" onClick={() => openModal(product)}>
+          <a href="" onClick={() => openModal(product)}>
             <img src={product.imgUrl} alt={product.title} />
           </a>
           <div className="product-desc">
@@ -32,6 +35,7 @@ function Products(props) {
 
       <ProductModal product={product} closeModal={closeModal} />
     </div>
+    </Bounce>
   );
 }
 export default Products;

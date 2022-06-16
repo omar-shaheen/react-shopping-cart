@@ -47,16 +47,19 @@ footer {
 
 .wrapper {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 1.2rem 1rem;
 }
 
 .wrapper .products-wrapper {
-  width: 68%;
+  width: 65%;
 }
 
 .wrapper .filter-wrapper {
-  width: 30%;
+  width: 20%;
+}
+.wrapper .cart-wrapper {
+  width: 25%;
 }
 
 button {
